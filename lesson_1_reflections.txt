@@ -1,0 +1,143 @@
+
+Notepad++, Sublime, Atom
+
+C:\> FC old_file new_file
+
+Q: How did using diff help me find the error?
+
+Using FC, I was able to see places where changes had been made in the file. 
+
+By looking at what was in the new file, I noticed a type when spelling space.
+
+Why Reflect?
+https://sites.google.com/site/reflection4learning/why-reflect
+
+DropBox
+Google Docs
+Wikipedia - can view previous versions
+
+Q: How can using version control make me a more efficient programmer in the long run?
+
+If I had then lose functionality due to a change I made, I can quickly regain what 
+I had vs. having to re-think and re-do the working solution.  
+
+
+Git = Linus
+SVN = 
+Mercurial = 
+
+Concept Map
+    Version Control
+        type-of
+        Git
+            part-of
+            commit
+                operates-on
+                git diff (works on commits)
+
+Using Git to View History
+    git log
+        see: 
+        id
+        author
+        message
+    
+--------------------
+When to commit?
+--------------------
+    once for each logical change (eg. typo, bug)
+
+Q: Value of manual commits?
+    Can choose the "just right" time, not too small, not too big.
+
+
+Commits with multiple files
+    
+git log --stat
+
+Q: Why git allow changes to multiple files?
+    why not?
+
+git: steep learning curve
+
+git diff first_id second_id
+
+Q: How can you use "git log" and "git diff"?
+    git log can view commit messages and see date/time 
+    git log --stat, can see how many lines added and deleted
+
+
+git checkout -> checkout previous version of your code
+
+git checkout commitid
+    You are in 'detached HEAD state'
+
+Keep checking out the commit to find the one with the bug
+
+Q: How make you more confident about making changes?  
+    If commit often, then if introduce change, can revert
+
+Lewis Kaneshiro - can try changes without fear of breaking
+    add small incremental changes
+
+git-completion.bash.txt
+git-prompt-sh.txt
+bash_profile_course .bash_profile
+
+git config --global core.editor "'sublime_text.exe' -n -w"
+
+bash_profile
+alias subl = ""
+
+Q: what want to use git for?
+    qp work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
