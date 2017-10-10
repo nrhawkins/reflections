@@ -52,6 +52,57 @@ git branch
 
 Q: how would branches help?
     want to experiment with an approach, may never merge it with the main
+ 
+Interview: context, new piece of work, sharing publicly 
+    master: production quality branch, never breaks, always works
+    development: active work taking place
+    experimental: not production quality yet
+    
+    good also for collaborating with yourself: feature branch
+
+New Feature: Coins branch
+
+git checkout coins (remote branch, since Sarah created it, Caroline using it)
+
+git log --graph --oneline master coins
+
+git log -> shows parent commits
+
+Reachability 
+
+git checkout -b new_branch_name
+
+Q: how do the diagrams help you visualize the branch structure?
+    the diagrams help to see the chain of commits on each branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
