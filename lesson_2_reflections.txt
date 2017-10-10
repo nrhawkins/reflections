@@ -75,6 +75,29 @@ git checkout -b new_branch_name
 Q: how do the diagrams help you visualize the branch structure?
     the diagrams help to see the chain of commits on each branch
 
+Merging Two Branches
+    Merge coins into the master 
+    if delete coins branch before merging, will be abandoning that chain of commits
+    Commands:
+    git branch (make sure on master branch)
+    git merge master coins                
+    editor pops up for merge commit (comes with default message)
+    git log (see merge commit at top)
+        
+    git diff 2 commits (one is not the parent of the other)
+    git show (see changes compared to parent)
+    
+    git branch -d coins (deletes the label, the commits are still reachable from the master branch)
+
+Q: What is the result of merging two branches?  Why represent it in the diagram the way we do?
+    lines added are kept in the final file, lines removed are not               
+
+Automatic merge is not always possible
+    
+
+
+
+
 
 
 
