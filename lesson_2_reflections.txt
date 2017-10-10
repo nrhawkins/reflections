@@ -118,6 +118,13 @@ Q: Pro's and con's of automatic merging? vs. always manual?
     Pro: faster
     Con: could surprise you.
 
+Jeffrey Middleton: good to have one unit of work commits
+    Can stage something when it's ready, and keep working on something else not yet ready
+    
+    
+
+
+
 
     
 
