@@ -1,0 +1,29 @@
+Lesson 1
+
+git log
+git clone
+git checkout
+git diff
+
+Lesson 2
+
+git init
+    creates .git directory
+
+git status
+    on master branch
+    
+Q: what happens when you initialize a new repository? Why do you need to do it?
+    a new directory gets created, called .git
+    need to do it to start tracking files
+
+Q: what value does the staging area offer?
+    allows a group commit
+    provides a two-step, capable of being edited, process
+
+git add
+git status
+
+git commit (opens up editor)
+git commit -m "Commit Message"
+    
