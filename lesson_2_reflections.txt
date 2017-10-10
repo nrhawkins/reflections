@@ -36,6 +36,31 @@ git checkout master
 Q: how use staging area to make sure have one logical change per commit
     use git diff to compare working directory to staging area
 
+Branches (= labels for commits)
+
+fix bug -> new feature -> update docs -> italian (Italian version)
+                                      -> master (fix)
+                                      -> exp (experimental feature)
+
+-> creating and checking out branches
+
+git branch (shows current branches)
+git branch easy-mode (creates new branch easy-mode)
+* indicates branch checked-out
+git checkout easy-mode
+git branch
+
+Q: how would branches help?
+    want to experiment with an approach, may never merge it with the main
+
+
+
+
+
+
+
+
+
 
 
 
