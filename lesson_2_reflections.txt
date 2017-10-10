@@ -93,9 +93,44 @@ Q: What is the result of merging two branches?  Why represent it in the diagram 
     lines added are kept in the final file, lines removed are not               
 
 Automatic merge is not always possible
+    Hu have to sort it out, not automatic
+    
+online diagramming tools: gliffy or yUML
+
+Merge master into easy-mode (new merge commit will have label easy-mode)
+    git checkout easy-mode
+    git merge master easy-mode
+    merge conflict in game.js
+        3 sections: easy-mode, common ancestors, master
+        moved code into a function
+        the marked areas represent conflict zones only, not new code added, not in original 
+        made the resolution changes
+        git status -> both modified: game.js
+        git add game.js
+        git status
+        git commit
+        Only one commit gets created, the merge commit
+        
+can diff 2 branches
+can get log for a branch
+
+Q: Pro's and con's of automatic merging? vs. always manual?
+    Pro: faster
+    Con: could surprise you.
+
+
     
 
 
+
+        
+        
+
+
+
+
+                         
+   
 
 
 
