@@ -26,4 +26,32 @@ git status
 
 git commit (opens up editor)
 git commit -m "Commit Message"
+
+git diff "working directory" "staging area"
+git diff --staged "staging area" commit1
+git diff commit1 commit2
+
+git checkout master
+
+Q: how use staging area to make sure have one logical change per commit
+    use git diff to compare working directory to staging area
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
     
