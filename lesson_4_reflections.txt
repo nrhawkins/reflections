@@ -1,2 +1,6 @@
 When would you want to create a remote repository rather than keeping all your work local?
-
+    -want to share code with others
+    -want to work on multiple computers and don't have remote access to the local work
+    -want to be able to view the code online using a browser
+    -want others to be able to the view the code online using a browser
+    
