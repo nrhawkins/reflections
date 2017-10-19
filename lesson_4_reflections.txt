@@ -4,3 +4,41 @@ When would you want to create a remote repository rather than keeping all your w
     -want to be able to view the code online using a browser
     -want others to be able to the view the code online using a browser
     
+Why might you want to always pull changes manually rather than having Git
+ automatically stay up-to-date with your remote repository?
+    -might pull over a file you're working on
+
+ 
+Forking a repository
+
+fork = a clone that github makes on its own machines
+
+side effects = 
+    github keeps track of the number of people who have made forks on your repository
+    the forks all link back to the original
+    makes it easier to suggest changes back to the original repository
+
+Caroline forks a copy to her account, called recipes
+Each can clone a version from the forked version
+
+git clone https://github.com/nrhawkins/recipes.git
+
+git remote -v (see that the remote origin has been automatically created)
+
+Settings -> Collaborators -> add Sarah as a collaborator
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+    forks - get a copy of a repo on github to make changes, when you don't have permission to change the orig repo
+    clones - get a repo from github
+    branches - create on local repository to work on a new feature
+
+
+
+
+
+
+
+
+
+
