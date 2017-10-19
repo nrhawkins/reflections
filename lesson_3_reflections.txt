@@ -37,6 +37,23 @@ git push origin master (branch on github will be named master)
 git branch
 *master
 
+github:
+can see that branch is named master
+can see a list of commits pushed to github
+
+git pull origin master (to get file created on github)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
