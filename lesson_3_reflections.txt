@@ -18,6 +18,38 @@ can pull
 
 push branch a, will send all commits not already on github repository
 
+on github:
++ New Repository
+name = reflections
+leave as public
+don't check add README since already have commits in the repository
+
+back at git:
+git remote
+(see no remotes)
+git remote add origin https://github.com/nrhawkins/reflections.git
+git remote
+(see origin)
+git remote -v (verbose)
+
+git push origin master (branch on github will be named master)
+
+git branch
+*master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
