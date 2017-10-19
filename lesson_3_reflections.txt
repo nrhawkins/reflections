@@ -1,0 +1,24 @@
+github - home for many public projects
+
+ipython
+bootstrap
+jquery
+atom
+
+creating modifying suggesting
+
+Git for Windows - will store your credentials
+git config --global credential.helper wincred
+
+choose when and how to get into sync
+
+create empty repository on github, a remote
+can push
+can pull
+
+push branch a, will send all commits not already on github repository
+
+
+
+
+
