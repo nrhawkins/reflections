@@ -114,6 +114,63 @@ directly in master? What benefits does each approach have?
     w/o branch: simpler
     w/branch: protected from breaking master
 
+locally, already have a link to a remote, the fork
+
+can make a link to the original repo, called upstream
+
+upstream/master, can merge this with your change branch
+
+
+git pull upstream/master (merge chocolate sprinkler and stop drop and roll)
+
+merge master into change branch
+
+push change and master to the fork (
+
+Instructions:
+--------------
+git remote add upstream https://github.com/udacity/create-your-own-adventure.git
+git checkout master
+git pull upstream master
+
+git log
+
+git checkout stop-drop-roll
+git merge master stop-drop-roll
+
+notepad fire.md
+
+git add fire.md
+git commit
+
+git push origin stop-drop-roll
+
+git checkout master
+
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
