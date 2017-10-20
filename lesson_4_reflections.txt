@@ -34,6 +34,171 @@ Describe the differences between forks, clones, and branches. When would you use
     branches - create on local repository to work on a new feature
 
 
+Collaboration Conflicts
+
+locally modify chili recipe
+git diff (to see changes made)
+git add
+git commit
+
+
+git fetch origin (updates local origin/master) (creates new branch)
+can use
+git log origin/master (and ... )
+git diff origin/master master (to see what changes were introduced)
+now
+git merge master origin/master
+got merge conflict
+i.e. merge conflict in chili-recipe
+open the file to resolve it.
+then
+git add
+git commit
+
+same as
+git pull origin master
+if run that now, 
+master Already up-to-date
+
+
+git pull origin master
+conflict with chili-recipe
+notepad chili-recipe to resolve
+git add chili-recipe
+git commit chili-recipe
+git push origin master
+
+
+Fast-forward Merges
+a and b, is a an ancestor of b?
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    can use git diff and git log to examine the changes
+
+
+Make change branch
+Push change branch
+When ready, merge master and change branches
+
+git branch different-oil
+git checkout different-oil
+modify cake recipe to use canola oil instead of vegetable oil
+git add 
+git commit
+git push origin different-oil
+
+Pull request
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    make notes about files changed
+    easier: don't have to learn git, don't have to worry about how git merges, 
+    harder: could become cumbersome
+
+
+Incorporating more-oil into Caroline's local repo
+
+git pull origin master
+git checkout different-oil
+git merge master different-oil
+merge conflict in cake-recipe
+notepad resolve conflict -> 3/4 cup canola oil
+git push origin different-oil
+
+git log -n 1
+
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+    work on a new feature, without breaking master
+    w/o branch: simpler
+    w/branch: protected from breaking master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
